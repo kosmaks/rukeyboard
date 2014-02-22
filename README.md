@@ -7,7 +7,7 @@ Usage
 -----
 
 ```ruby
-keyboard = RuKeboard.new
+keyboard = RuKeyboard.new
 
 # press 'a' key
 keyboard.press_key 'a'
