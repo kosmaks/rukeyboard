@@ -1,20 +1,20 @@
-RuMouse
--------
+RuKeyboard
+----------
 
-This is port of PyMouse to ruby. Cross-platform library to simulate mouse events.
+Cross-platform library to simulate keyboard events.
 
 Usage
 -----
 
 ```ruby
-mouse = RuMouse.new
+keyboard = RuKeboard.new
 
-# click at 10x10
-mouse.click 10, 10
+# press 'a' key
+keyboard.press_key 'a'
 
-# move mouse to 100x100
-mouse.move 100, 100
+# release 'a' key
+keyboard.release_key 'a'
 
-# get screen size
-puts mouse.screen_size 
+# type string
+keyboard.type_string 'hello, world' 
 ```
