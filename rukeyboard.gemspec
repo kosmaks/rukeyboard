@@ -3,7 +3,7 @@ Gem::Specification.new do |s|
   s.version     = "0.0.1"
   s.date        = "2014-02-22"
   s.summary     = "Simulate key events from ruby."
-  s.description = "Cross-platform solution for simulating mouse events"
+  s.description = "Cross-platform solution for simulating keyboard events"
   s.authors     = ["Maxim Kostuchenko"]
   s.email       = "kstmaks@gmail.com"
   s.files       = ["lib/rukeyboard.rb", 
